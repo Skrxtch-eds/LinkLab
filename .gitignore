@@ -1,0 +1,21 @@
+# Local database and runtime data
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Dependencies and build tooling
+node_modules/
+coverage/
+.vite/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+
+# Local files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
